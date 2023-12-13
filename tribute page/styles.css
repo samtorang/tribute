@@ -1,0 +1,79 @@
+*{
+  margin : 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: blanchedalmond;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: blue;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.foto{
+  display: block;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content : center;
+}
+
+#img-div{
+  background-color: rgb(194, 194, 156);
+  padding: 10px;
+}
+
+img{
+  max-width : 100%;
+  width: 15%;
+  height : auto;
+  display : block;
+  gap: 16px;
+  margin: 0 auto;
+}
+
+#img-caption, #tribute-info, #link{
+  text-align: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.divider-large{
+  background-color: black;
+  border: 0;
+  height: 2px;
+}
+
+p{
+  text-align: center;
+  justify-content: center;
+}
+
+cite{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: palevioletred;
+}
+
+a:hover {
+  color: orangered;
+}
+
+a:active {
+  color: red;
+}
